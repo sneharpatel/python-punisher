@@ -27,7 +27,7 @@ class MainPage(Page):
             return False
 
 
-class PythonOrgSearch(unittest.TestCase):
+class PunisherTest(unittest.TestCase):
 
     def setUp(self):
         self.driver = get_driver()
